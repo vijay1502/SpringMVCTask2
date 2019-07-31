@@ -1,0 +1,4 @@
+
+"squid:ClassVariableVisibilityCheck"TMake password a static final constant or non-public and provide accessors if needed.(¼şòüÿÿÿÿ8²ô›Ä-
+…"squid:ClassVariableVisibilityCheck"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8ùì›Ä-
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïŒşÒ8ŞÉş›Ä-

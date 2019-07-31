@@ -14,12 +14,12 @@ import java.util.Scanner;
 @RequestMapping("/")
 public class UserController {
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-   public String user(ModelMap modelMap){
+   public String user(@RequestParam("username")String username,@RequestParam("password")String password, ModelMap modelMap){
         User user=new User();
 
         String output;
-
-        modelMap.addAttribute("result","vijay");
+        user.setName(username);
+        modelMap.addAttribute("result",user.getName());
         if(user.getName()==user.getPassword()){
             output="display";
         }
